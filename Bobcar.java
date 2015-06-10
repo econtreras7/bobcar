@@ -19,8 +19,8 @@ public class Bobcar {
             n4 = input.nextInt();
         }
         
-        int cost = 0;
-        int total = 0;
+        int cost,total = 0;
+        //int total = 0;
         
         if (n1 == 1) {
             cost = 25;
