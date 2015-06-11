@@ -31,8 +31,8 @@ public class Bobcar {
         else if (n1 == 2) {
             cost = 55;
             total = (cost*n2);
-            System.out.print("Base: " + n2 + " days for a Compact @ $55 per day:");
-            System.out.println(cost*n2);
+            System.out.print("Base: " + n2 + " days for a Compact @ $55 per day:" + (cost*n2));
+            //System.out.println(cost*n2);
         }
         else if (n1 == 3) {
             cost = 100;
