@@ -19,9 +19,7 @@ public class Bobcar {
             n4 = input.nextInt();
         }
         
-        int cost,total = 0;
-        //int total = 0;
-        
+        int cost,total,pac = 0;
         if (n1 == 1) {
             cost = 25;
             total = (cost*n2);
@@ -45,7 +43,6 @@ public class Bobcar {
             discount = (int)(n2/5)*cost;
             System.out.println("Club Member discount: -$" + discount);
         }
-        int pac = 0;
         if (n4 == 1) {
             pac = (int)(total*.20);
             System.out.println("Platinum Executive Package: +$" + pac);
